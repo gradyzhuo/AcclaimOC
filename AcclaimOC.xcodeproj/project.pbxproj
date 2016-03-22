@@ -15,7 +15,6 @@
 		79DFD8AF1CA1991000A87D02 /* ACAPIQueuePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFD8A91CA1991000A87D02 /* ACAPIQueuePriority.swift */; };
 		79DFD8B01CA1991000A87D02 /* ACHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFD8AA1CA1991000A87D02 /* ACHTTPMethod.swift */; };
 		79DFD8B11CA1991000A87D02 /* ACRequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFD8AB1CA1991000A87D02 /* ACRequestParameters.swift */; };
-		79DFD8B21CA1991000A87D02 /* APICaller.CacheStoragePolicy+NSURLCacheStoragePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DFD8AC1CA1991000A87D02 /* APICaller.CacheStoragePolicy+NSURLCacheStoragePolicy.swift */; };
 		79DFD9091CA1AD4800A87D02 /* Acclaim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DFD9081CA1AD4800A87D02 /* Acclaim.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +40,6 @@
 		79DFD8A91CA1991000A87D02 /* ACAPIQueuePriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACAPIQueuePriority.swift; path = Classes/ACAPIQueuePriority.swift; sourceTree = "<group>"; };
 		79DFD8AA1CA1991000A87D02 /* ACHTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACHTTPMethod.swift; path = Classes/ACHTTPMethod.swift; sourceTree = "<group>"; };
 		79DFD8AB1CA1991000A87D02 /* ACRequestParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACRequestParameters.swift; path = Classes/ACRequestParameters.swift; sourceTree = "<group>"; };
-		79DFD8AC1CA1991000A87D02 /* APICaller.CacheStoragePolicy+NSURLCacheStoragePolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "APICaller.CacheStoragePolicy+NSURLCacheStoragePolicy.swift"; path = "Classes/APICaller.CacheStoragePolicy+NSURLCacheStoragePolicy.swift"; sourceTree = "<group>"; };
 		79DFD9081CA1AD4800A87D02 /* Acclaim.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Acclaim.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +90,6 @@
 				79DFD8A91CA1991000A87D02 /* ACAPIQueuePriority.swift */,
 				79DFD8AA1CA1991000A87D02 /* ACHTTPMethod.swift */,
 				79DFD8AB1CA1991000A87D02 /* ACRequestParameters.swift */,
-				79DFD8AC1CA1991000A87D02 /* APICaller.CacheStoragePolicy+NSURLCacheStoragePolicy.swift */,
 				7958CADA1CA198B700B6D0D0 /* Info.plist */,
 				79DFD9081CA1AD4800A87D02 /* Acclaim.framework */,
 			);
@@ -221,7 +218,6 @@
 				79DFD8B11CA1991000A87D02 /* ACRequestParameters.swift in Sources */,
 				79DFD8B01CA1991000A87D02 /* ACHTTPMethod.swift in Sources */,
 				79DFD8AF1CA1991000A87D02 /* ACAPIQueuePriority.swift in Sources */,
-				79DFD8B21CA1991000A87D02 /* APICaller.CacheStoragePolicy+NSURLCacheStoragePolicy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
