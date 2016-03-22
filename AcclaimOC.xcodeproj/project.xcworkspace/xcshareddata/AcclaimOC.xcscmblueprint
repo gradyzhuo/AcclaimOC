@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F79958C42B8FC4A147A96CF5363D2E3BEB961310",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F79958C42B8FC4A147A96CF5363D2E3BEB961310" : 0,
+    "DA6D1DC3AC3581EF2E652F362D574BF6C2E2DFC8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D28D0B96-4406-4250-83F5-961FDE393248",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F79958C42B8FC4A147A96CF5363D2E3BEB961310" : "AcclaimOC\/",
+    "DA6D1DC3AC3581EF2E652F362D574BF6C2E2DFC8" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AcclaimOC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AcclaimOC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gradyzhuo\/Acclaim.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA6D1DC3AC3581EF2E652F362D574BF6C2E2DFC8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gradyzhuo\/AcclaimOC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F79958C42B8FC4A147A96CF5363D2E3BEB961310"
+    }
+  ]
+}
