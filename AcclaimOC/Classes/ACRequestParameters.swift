@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import Acclaim
 
 public class ACParameter : NSObject {
     public var key: String = ""
