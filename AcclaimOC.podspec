@@ -15,5 +15,5 @@ s.platform     = :ios, '9.0'
 s.requires_arc = true
 s.source_files = 'AcclaimOC/Classes/**/*.swift'
 s.frameworks   = 'Foundation'
-s.dependency 'Acclaim', '~> 0.1.1'
+s.dependency 'Acclaim', '~> 0.1.2'
 end
