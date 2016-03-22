@@ -61,7 +61,7 @@ public class ACAPICaller : NSObject {
     }
     
     internal func setup(API api:ACAPI, params:ACRequestParameters){
-        self.apiCaller = APICaller(API: api.api, params: params.requestParameters(), connector: Acclaim.defaultConnector)
+        self.apiCaller = APICaller(API: api.api, params: params.requestParameters(), connector: Acclaim.configuration.connector)
     }
     
 }
@@ -69,13 +69,13 @@ public class ACAPICaller : NSObject {
 extension ACAPICaller {
     public func addResponseHandler(handler: @convention(block)(data: NSData, response: NSURLResponse?)->Void){
         self.apiCaller.addOriginalDataResponseHandler { (result) in
-            handler(data: result.data, response: result.connection.response)
+            handler(data: result.data ?? NSData(), response: result.connection.response)
         }
     }
     
     
     
-    public func setFailedResponseHandler(handler:@convention(block)(data: NSData?, response: NSHTTPURLResponse?, error: NSError?)->Void){
+    public func setFailedResponseHandler(handler:@convention(block)(data: NSData?, response: NSURLResponse?, error: NSError?)->Void){
         self.apiCaller.addFailedResponseHandler { (originalData, connection, error) in
             handler(data: originalData, response: connection.response, error: error as? NSError)
         }
@@ -112,7 +112,7 @@ public class ACDownloader : ACAPICaller {
     }
     
     override func setup(API api: ACAPI, params: ACRequestParameters) {
-        self.downloader = Downloader(API: api.api, params: params.requestParameters(), connector: Acclaim.defaultConnector)
+        self.downloader = Downloader(API: api.api, params: params.requestParameters(), connector: Acclaim.configuration.connector)
         self.apiCaller = self.downloader
     }
     
