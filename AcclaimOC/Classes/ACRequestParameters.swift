@@ -90,7 +90,7 @@ public class ACFormArrayParameter : ACParameter{
 @objc
 public class ACRequestParameters : NSObject{
     
-    var params:[Parameter]
+    var params:Parameters
     
     public func requestParameters()->RequestParameters{
         var params = RequestParameters()
